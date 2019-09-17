@@ -2,6 +2,13 @@ import React, { Component } from "react"
 import axios from "axios"
 
 class Projects extends Component {
+  constructor() {
+    super();
+    this.state = {
+      projects: []
+    };
+  }
+
   componentDidMount() {
     axios.get('./src/data/projects.json')
       .then(response => {
@@ -9,11 +16,6 @@ class Projects extends Component {
           projects: response.data
         })
       })
-    }
-  
-  constructor() {
-    super();
-    this.state = {};
   }
 
   render() {
@@ -31,14 +33,15 @@ class Projects extends Component {
         )
       })
     }
-
     return (
+
       <div className="ui main container">
         <h1 className="ui header">My Projects</h1>
         {projectsList}
       </div>
+
     )
-  };
+  }
 }
 
 export default Projects
