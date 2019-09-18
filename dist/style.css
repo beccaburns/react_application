@@ -48,27 +48,3 @@ Font-Family: 'Lato', Sans-Serif;
 Font-Size: 20px;
 }
 
-.bg {
-  background-image: 'url("./src/img/becca.png")';
-  background-size: cover;
-  background-opacity: 2.0;
-}
-
-img.bg {
-  min-height: 100%;
-  min-width: 1024px;
-	
-  width: 100%;
-  height: auto;
-	
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-@media screen and (max-width: 1024px) { 
-  img.bg {
-    left: 50%;
-    margin-left: -512px;   
-  }
-}
