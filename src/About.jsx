@@ -6,7 +6,7 @@ const About = () => {
     <div className="ui main container">
       <div className="ui stackable two column grid">
         <div className="column">
-        <img class="ui medium circular image" src="../src/img/profile.jpeg"></img>
+       <center><img class="ui medium circular image" src="../src/img/profile.jpeg"></img></center>
         </div>
         <div className="column">
           <h1>Hey! I'm Becca.</h1>

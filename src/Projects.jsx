@@ -52,7 +52,7 @@ class Projects extends Component {
       <div className="ui main container">
         <div className="ui stackable two column grid">
           <div className="column">
-            <UndrawCreativity primaryColor='#12283a' height='200px' />
+          <center><img class="ui medium circular image"src="../src/img/projects.jpg"></img></center>
           </div>
           <div className="column">
             <h1>Projects</h1>
