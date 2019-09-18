@@ -6,11 +6,18 @@ const About = () => {
     <div className="ui main container">
       <div className="ui stackable two column grid">
         <div className="column">
-          <UndrawWoman primaryColor='#12283a' height='200px'/>
+        <img class="ui medium circular image" src="../src/img/profile.jpeg"></img>
         </div>
         <div className="column">
           <h1>About Me</h1>
-          <p>Ipsum dolor dolorem consectetur est velit fugiat. Dolorem provident corporis fuga saepe distinctio ipsam? Et quos harum excepturi dolorum molestias?</p>
+          <p>Hello! My name is Becca. I am a student at the coding bootcamp, CraftAcademy, in Stockholm. 
+            In November I will pursue a position as a full stack web developer.</p>
+            <br></br>
+            <p>This profile will show you some of my latest projects with CraftAcademy and some of my other 
+            projects in SEO & Paid Advertising.
+            </p>
+            <br></br>
+            <p></p>
         </div>
       </div>
     </div>

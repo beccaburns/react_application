@@ -3,8 +3,9 @@ import React from "react"
 const Hello = () => {
   return (
       <div className="ui main container">
-          <h1 style={{backgroundColor: "lightblue"}}>Hello There!</h1>
+          <img class="ui fluid image" src="../src/img/becca.png"></img>
       </div>
+    
   )
 }
 
