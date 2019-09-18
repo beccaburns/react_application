@@ -59,7 +59,7 @@ class Projects extends Component {
             <p>Here is a selection of some recent projects. For more up-to-date work you can visit my <a href="https://github.com/beccaburns">GitHub</a> profile.</p>
           </div>
         </div>
-        <div className="ui stackable four column grid">
+      <div className="ui stackable four column grid">
           {projectsList}
         </div>
       </div>

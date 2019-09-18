@@ -1,20 +1,27 @@
 [
     {
       "id": 1,
-      "name": "My First Website",
-      "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
-      "description": "This was my first project. The guy lost, but won the popular vote!"
+      "name": "ATM Challenge",
+      "image": "https://media-private.canva.com/MADatKg0hUM/1/screen_3x.jpg?response-expires=Wed%2C%2018%20Sep%202019%2014%3A04%3A32%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190918T112128Z&X-Amz-SignedHeaders=host&X-Amz-Expires=9783&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=3eccebe90ceaeb24d45a882fbdb75cda13ca25312032f2baed738db2951f5c29",
+      "description": "This was my first project at CraftAcademy and, my first experience pair-programming!",
+      "link":"https://github.com/beccaburns/atm_challenge_2019"
     },
     {
       "id": 2,
-      "name": "UI Design",
-      "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "Designing user interfaces is fun. I want to learn more about that..."
+      "name": "Library Challenge",
+      "image": "https://media-private.canva.com/MADIEV3sdBI/1/screen_2x.jpg?response-expires=Wed%2C%2018%20Sep%202019%2014%3A16%3A54%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190918T112927Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10046&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bcbce87c3c0e34d3752922854aafbd36e20818372476fe0481c9a4ab15c24914",
+      "description": "This code creates a file including books within the library. It is possible to search the books by title and author."
     },
     {
       "id": 3,
-      "name": "Mobile UX",
-      "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+      "name": "Address Book",
+      "image": "https://media-private.canva.com/MAC8H1-HLac/1/screen_2x.jpg?response-expires=Wed%2C%2018%20Sep%202019%2013%3A37%3A23%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190918T113259Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7463&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2255ca2c02d3177324133e7cf2696ac1c531fc3b0c96c2c46a41db5c017463e5",
       "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+    }, 
+    {
+      "id": 4,
+      "name": "FizzBuzz Challenge",
+      "image": "https://media-public.canva.com/MADQ5H5-f1E/1/screen.jpg",
+      "description": "Everyone loves a good FizzBuzz Challenge. This FizzBuzz was created with JavaScript utilizing NPM. I enjoyed this challenge because it was another intro to UI."
     }
   ]
