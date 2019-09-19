@@ -54,14 +54,13 @@ class Projects extends Component {
           <div className="column">
           <center><img class="ui medium circular image"src="../src/img/projects.jpg"></img></center>
           </div>
-          
           <div className="column">
             <h1>Projects</h1>
             <p>Here is a selection of some recent projects. For more up-to-date work you can visit my <a href="https://github.com/beccaburns">GitHub</a> profile.</p>
           </div>
           <div class="ui horizontal divider"></div>
         </div>
-      <div className="ui stackable four column grid">
+        <div className="ui stackable centered four column grid">
           {projectsList}
         </div>
       </div>
