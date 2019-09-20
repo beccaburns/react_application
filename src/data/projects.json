@@ -10,18 +10,21 @@
       "id": 2,
       "name": "Library Challenge",
       "image": "https://media-private.canva.com/MADIEV3sdBI/1/screen_2x.jpg?response-expires=Wed%2C%2018%20Sep%202019%2014%3A16%3A54%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190918T112927Z&X-Amz-SignedHeaders=host&X-Amz-Expires=10046&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=bcbce87c3c0e34d3752922854aafbd36e20818372476fe0481c9a4ab15c24914",
-      "description": "This code creates a file including books within the library. It is possible to search the books by title and author."
+      "description": "This code creates a file including books within the library. It is possible to search the books by title and author.",
+      "link":"https://github.com/beccaburns/library-challenge"
     },
     {
       "id": 3,
       "name": "Address Book",
       "image": "https://media-private.canva.com/MAC8H1-HLac/1/screen_2x.jpg?response-expires=Wed%2C%2018%20Sep%202019%2013%3A37%3A23%20GMT&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190918T113259Z&X-Amz-SignedHeaders=host&X-Amz-Expires=7463&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20190918%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=2255ca2c02d3177324133e7cf2696ac1c531fc3b0c96c2c46a41db5c017463e5",
-      "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+      "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
+      "link":"https://github.com/beccaburns/address_book"
     }, 
     {
       "id": 4,
       "name": "FizzBuzz Challenge",
       "image": "https://media-public.canva.com/MADQ5H5-f1E/1/screen.jpg",
-      "description": "Everyone loves a good FizzBuzz Challenge. This FizzBuzz was created with JavaScript utilizing NPM. I enjoyed this challenge because it was another intro to UI."
+      "description": "Everyone loves a good FizzBuzz Challenge. This FizzBuzz was created with JavaScript utilizing NPM. I enjoyed this challenge because it was another intro to UI.",
+      "link": "https://beccabjsfizzbuzz.netlify.com/"
     }
   ]

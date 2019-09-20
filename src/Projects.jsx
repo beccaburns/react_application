@@ -1,22 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
-import { UndrawCreativity } from 'react-undraw-illustrations';
 import '../dist/style.css';
-
-const App = () => {
-  return (
-    <>
-      <Header />
-      <Switch>
-          <Route exact path='/' component={Hello}></Route>
-          <Route exact path='/about' component={About}></Route>
-          <Route exact path='/projects' component={Projects}></Route>
-      </Switch>
-      <Footer />
-    </ >
-  )
-};
 
 class Projects extends Component {
   constructor() {
@@ -48,18 +33,20 @@ class Projects extends Component {
         )
       })
     }
+   
     return (
       <div className="ui main container">
-        <div className="ui stackable two column grid">
-          <div className="column">
+      <div className="ui stackable two column grid">
+        <div className="column">
           <center><img class="ui medium circular image"src="../src/img/projects.jpg"></img></center>
-          </div>
-          <div className="column">
-            <h1>Projects</h1>
-            <p>Here is a selection of some recent projects. For more up-to-date work you can visit my <a href="https://github.com/beccaburns">GitHub</a> profile.</p>
-          </div>
-          <div class="ui horizontal divider"></div>
         </div>
+        <div className="column">
+          <h1>Projects</h1>
+            <p>Here is a selection of some recent projects. For more up-to-date work you can visit my <a href="https://github.com/beccaburns">GitHub</a> profile.</p>
+        </div>
+        <div class="ui horizontal divider">
+        </div>
+      </div>
         <div className="ui stackable centered four column grid">
           {projectsList}
         </div>
