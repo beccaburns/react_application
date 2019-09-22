@@ -1,57 +1,55 @@
 import React, { Component } from "react"
 import axios from "axios"
-import '../dist/style.css';
+import CVCard from "./CVCard"
+import '../dist/style.css'
 
 class CV extends Component {
     constructor() {
       super();
       this.state = {
-        cv: []
+        cvs: []
       };
     }
 
     componentDidMount() {
-        axios.get('./src/data/cv.json')
+        this.getCVList()   
+    }
+    
+    getCVList() {
+      axios.get('./src/data/CV.json')
           .then(response => {
             this.setState({
-              projects: response.data
+              cvs: response.data
             })
           })
       }
 
       render() {
-        const cv = this.state.cv
+        const cvs = this.state.cvs
         let cvList
     
-        if (cv.length > 0) {
-          cvList = cv.map(cv => {
+        if (cvs.length > 0) {
+          cvList = cvs.map(cv => {
             return (
               <div key={cv.id}>
-                <ProjectCard project={project} />
+                < CVCard cv={cv} />
               </div>
             )
           })
         }
        
-        return (
+        return(
           <div className="ui main container">
-          <div className="ui stackable two column grid">
-            <div className="column">
-              <center><img class="ui medium circular image"src="../src/img/projects.jpg"></img></center>
-            </div>
-            <div className="column">
-              <h1>Projects</h1>
-                <p>Here is a selection of some recent projects. For more up-to-date work you can visit my <a href="https://github.com/beccaburns">GitHub</a> profile.</p>
-            </div>
-            <div class="ui horizontal divider">
-            </div>
+              <div className="column">
+                  <h1 className="ui Header">CV</h1>
+              </div>
+              <div className="ui stackable two column grid">
+                 <div className="ui stackable two column grid">
+                      {cvList} 
+                 </div> 
+              </div>
           </div>
-            <div className="ui stackable centered four column grid">
-              {projectsList}
-            </div>
-          </div>
-        )
-      }
+      )
     }
-    
-    export default CV
+  } 
+  export default CV 

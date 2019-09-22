@@ -17,7 +17,7 @@ const App = () => {
           <Route exact path='/' component={Hello}></Route>
           <Route exact path='/about' component={About}></Route>
           <Route exact path='/projects' component={Projects}></Route>
-          <Route exact path='/cv' component={CV}></Route>
+          <Route exact path='/CV' component={CV}></Route>
       </Switch>
       <Footer />
     </ >
